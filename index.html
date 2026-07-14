@@ -936,6 +936,19 @@
         transition: none;
       }
     }
+
+
+    .cert-issuer a {
+      color: var(--accent);
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+      transition: border-color 0.2s, color 0.2s;
+    }
+
+    .cert-issuer a:hover {
+      color: var(--accent2);
+      border-bottom-color: var(--accent2);
+    }
   </style>
 </head>
 
@@ -973,7 +986,8 @@
         </p>
         <div class="hero-cta">
           <a href="#projects" class="btn btn-primary">View Projects</a>
-          <a href="https://drive.google.com/file/d/14cZAX0GO4g9tH4VhEXwIBt59H-RuW0fj/view?usp=sharing" class="btn btn-outline" download>
+          <a href="https://drive.google.com/file/d/14cZAX0GO4g9tH4VhEXwIBt59H-RuW0fj/view?usp=sharing"
+            class="btn btn-outline" download>
             <i class="fa-solid fa-download"></i> CV
           </a>
           <a href="#contact" class="btn btn-outline">Get in Touch</a>
@@ -1006,6 +1020,7 @@
             <span class="chip highlight">Tableau</span>
             <span class="chip">ML &amp; DL</span>
             <span class="chip">MySQL</span>
+            <span class="chip highlight">SQL</span>
             <span class="chip highlight">Frontend</span>
             <span class="chip">JavaScript</span>
           </div>
@@ -1296,6 +1311,24 @@
           </a>
         </div>
 
+        <div class="project-card reveal">
+          <p class="project-type">Data Visualization</p>
+          <h3 class="project-title">Stock Exchange Analysis (NSE Dashboard)</h3>
+          <p class="project-desc">
+            Built an interactive Tableau dashboard analyzing 50 NSE stocks using a multi-company dataset — tracking
+            gainers/losers, volume trends, 52-week volatility, and price movement patterns.
+          </p>
+          <div class="project-stack">
+            <span class="stack-tag">Tableau</span>
+            <span class="stack-tag">Data Analytics</span>
+            <span class="stack-tag">Excel/CSV</span>
+          </div>
+          <a href="https://github.com/Harmant05/NSE-Stock-Dashboard/blob/main/README.md" target="_blank"
+            rel="noopener noreferrer" class="btn btn-outline project-link">
+            View Details
+          </a>
+        </div>
+
         <div class="project-card reveal"
           style="display:flex;flex-direction:column;justify-content:center;background:transparent;border-style:dashed;">
           <p class="project-type">Coming Soon</p>
@@ -1326,7 +1359,6 @@
 
         <div class="cert-item">
           <div class="cert-icon">
-            <!-- HP Life icon approximation: shield + data -->
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
               stroke-linejoin="round">
               <path d="M12 2L3 7v5c0 5.25 3.75 10.15 9 11.25C17.25 22.15 21 17.25 21 12V7L12 2z" />
@@ -1335,7 +1367,10 @@
           </div>
           <div>
             <p class="cert-name">Data Science and Analytics</p>
-            <p class="cert-issuer">HP Life — Certified</p>
+            <p class="cert-issuer">
+              <a href="https://www.life-global.org/certificate/13284737-6132-41b1-9f1c-a5b811c73911" target="_blank"
+                rel="noopener noreferrer">HP Life — Certified</a>
+            </p>
           </div>
         </div>
 
@@ -1348,8 +1383,11 @@
             </svg>
           </div>
           <div>
-            <p class="cert-name">AI for Beginners</p>
-            <p class="cert-issuer">HP Life — Certified</p>
+            <p class="cert-name">Data Analytics</p>
+            <p class="cert-issuer">
+              <a href="https://drive.google.com/file/d/1OGUxUHTMHK0WVqrWU2ssBpnJsStbjoiJ/view?usp=drivesdk"
+                target="_blank" rel="noopener noreferrer">Deloitte — Certified</a>
+            </p>
           </div>
         </div>
 
@@ -1363,7 +1401,10 @@
           </div>
           <div>
             <p class="cert-name">Data Visualization</p>
-            <p class="cert-issuer">TATA Forage — Certified</p>
+            <p class="cert-issuer">
+              <a href="https://www.linkedin.com/posts/harmant_activity-7368938270715502593-hNme?utm_source=social_share_send&utm_medium=android_app&rcm=ACoAAD7n2eIB6kxmRonlWd1OvGLznOlKrlj1e4o&utm_campaign=copy_link"
+                target="_blank" rel="noopener noreferrer">TATA Forage — Certified</a>
+            </p>
           </div>
         </div>
 
@@ -1377,7 +1418,10 @@
           </div>
           <div>
             <p class="cert-name">AI Skills Passport</p>
-            <p class="cert-issuer">Microsoft &amp; EY — Certified</p>
+            <p class="cert-issuer">
+              <a href="https://www.linkedin.com/posts/harmant_activity-7392835062372847616-4Kl0?utm_source=social_share_send&utm_medium=android_app&rcm=ACoAAD7n2eIB6kxmRonlWd1OvGLznOlKrlj1e4o&utm_campaign=whatsapp"
+                target="_blank" rel="noopener noreferrer">Microsoft &amp; EY — Certified</a>
+            </p>
           </div>
         </div>
 
@@ -1454,8 +1498,7 @@
             <div class="cd-row">
               <span class="cd-key">GitHub</span>
               <span class="cd-val">
-                <a href="https://github.com/Harmant05" target="_blank"
-                  rel="noopener noreferrer">@Harmant05</a>
+                <a href="https://github.com/Harmant05" target="_blank" rel="noopener noreferrer">@Harmant05</a>
               </span>
             </div>
           </div>
