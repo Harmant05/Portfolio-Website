@@ -632,6 +632,9 @@
     link.addEventListener('click', () => navLinks.classList.remove('open'));
   });
 
+  document.addEventListener('click', (e) => {
+  if (!navbar.contains(e.target)) navLinks.classList.remove('open');
+  });
   // Scroll reveal
   const reveals = document.querySelectorAll('.reveal');
   const observer = new IntersectionObserver((entries) => {
