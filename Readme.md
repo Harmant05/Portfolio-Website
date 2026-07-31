@@ -2,4 +2,4 @@
 
 Designed and built a fully responsive personal portfolio
 
-**Live site:** [Live Portfolio Site](https://harmant05.github.io/Portfolio-Website/) 
+**[Live Portfolio Site]**(https://harmant05.github.io/Portfolio-Website/) 
