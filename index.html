@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HARMANT | Portfolio </title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&family=Inter:wght@300;400;500;600&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <a class="nav-logo" href="#hero"><span>"</span>Portfolio<span>"</span></a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#certificates">Certificates</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-grid">
+      <div class="hero-left">
+        <div class="available-badge">
+          <span class="dot"></span> <span><b>Available to Work</b></span>
+        </div>
+        <h1 class="hero-name">
+          Harendra<br>
+          <span class="line2">Mani Tripathi</span>
+        </h1>
+        <p>Data Analytics &amp; Development</p>
+        <p class="hero-title">M.Sc. Data Science — <br>SIES College of Arts, Science &amp; Commerce || University of Mumbai</p>
+        <div class="hero-cta">
+          <a href="#projects" class="btn btn-primary"><i class="fa-solid fa-book-open"></i> View Projects</a>
+          <a href="https://drive.google.com/file/d/10-ckOxnEnXDzi4zoPBAnhlaFf81NKKVS/view" class="btn btn-outline"
+            download>
+            <i class="fa-solid fa-download"></i> Resume/CV
+          </a>
+          <a href="#contact" class="btn btn-outline"><i class="fa-solid fa-comment-dots"></i> Get in Touch</a>
+        </div>
+      </div>
+
+      <div class="hero-right reveal">
+        <div class="stats-card">
+          <div class="stats-grid">
+            <div class="stat-item">
+              <div class="stat-number">3+</div>
+              <div class="stat-label"><b>months</b> of experience</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number">8.15/10</div>
+              <div class="stat-label">B.Sc. IT Grade</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number">4+</div>
+              <div class="stat-label">Projects</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number">5+</div>
+              <div class="stat-label">Tech Stacks</div>
+            </div>
+          </div>
+          <div class="skill-chips">
+            <span class="chip highlight">Python</span>
+            <span class="chip highlight">Power BI</span>
+            <span class="chip highlight">Tableau</span>
+            <span class="chip">ML &amp; DL</span>
+            <span class="chip">MySQL</span>
+            <span class="chip highlight">SQL</span>
+            <span class="chip highlight">Frontend</span>
+            <span class="chip">JavaScript</span>
+          </div>
+        </div>
+
+        <div class="social-row">
+          <a class="social-link" href="https://github.com/Harmant05" target="_blank" rel="noopener noreferrer">
+            <!-- GitHub mark -->
+            <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577v-2.165c-3.338.726-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.84 1.237 1.84 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.468-2.38 1.235-3.22-.123-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.3 1.23a11.5 11.5 0 0 1 3-.404c1.02.005 2.047.138 3 .404 2.29-1.552 3.297-1.23 3.297-1.23.653 1.652.242 2.873.12 3.176.77.84 1.233 1.91 1.233 3.22 0 4.61-2.807 5.625-5.48 5.92.43.372.823 1.102.823 2.222v3.293c0 .322.216.694.825.576C20.565 21.796 24 17.298 24 12c0-6.63-5.37-12-12-12z" />
+            </svg>
+            GitHub
+          </a>
+          <a class="social-link" href="https://linkedin.com/in/harmant" target="_blank" rel="noopener noreferrer">
+            <!-- LinkedIn mark -->
+            <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.98 1.98 0 0 1-1.985-1.98c0-1.093.891-1.98 1.985-1.98s1.985.887 1.985 1.98a1.98 1.98 0 0 1-1.985 1.98zm1.962 13.019H3.374V9h3.925v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+            </svg>
+            LinkedIn
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="section-inner reveal">
+      <p class="section-label">Background</p>
+      <div class="section-divider"></div>
+      <h2 class="section-heading">About Me</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            I'm a passionate individual with a strong interest in technology,
+            data analysis, and continuous learning. Born and brought up in Sant Kabir Nagar,
+            Uttar Pradesh, India. I completed my education up to 12th grade there
+            before moving to Mumbai for higher education.
+          </p>
+
+          <p>
+            I'm currently pursuing an M.Sc. in Data Science at
+            SIES College of Arts, Science &amp; Commerce and completed
+            B.Sc. Information Technology from NES Ratnam College of Arts, Science &amp; Commerce.
+          </p>
+
+          <p>
+            I aim to apply my technical knowledge to real-world problems while
+            continuously developing my expertise in data analytics and technology.
+          </p>
+        </div>
+        <div class="about-info">
+          <div class="info-row">
+            <span class="info-key">Name</span>
+            <span class="info-val">Harendra Mani Tripathi</span>
+          </div>
+          <div class="info-row">
+            <span class="info-key">Location</span>
+            <span class="info-val">Mumbai, Maharashtra, 400078</span>
+          </div>
+          <div class="info-row">
+            <span class="info-key">Degree</span>
+            <span class="info-val">M.Sc. Data Science (In Progress)</span>
+          </div>
+          <div class="info-row">
+            <span class="info-key">Languages</span>
+            <span class="info-val">English, Hindi</span>
+          </div>
+          <div class="info-row">
+            <span class="info-key">Status</span>
+            <span class="info-val">Open for Oppotunities</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="section-inner">
+      <p class="section-label">What I Work With</p>
+      <div class="section-divider"></div>
+      <h2 class="section-heading">Technical Skills</h2>
+      <div class="skills-grid">
+
+        <div class="skill-card reveal">
+          <div class="skill-card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+              stroke-linejoin="round">
+              <polyline points="16 18 22 12 16 6" />
+              <polyline points="8 6 2 12 8 18" />
+            </svg>
+          </div>
+          <p class="skill-card-title">Programming Languages</p>
+          <div class="skill-tags">
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">R</span>
+            <span class="skill-tag">HTML</span>
+            <span class="skill-tag">CSS</span>
+            <span class="skill-tag">JavaScript</span>
+          </div>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+              stroke-linejoin="round">
+              <ellipse cx="12" cy="5" rx="9" ry="3" />
+              <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3" />
+              <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5" />
+            </svg>
+          </div>
+          <p class="skill-card-title">Databases</p>
+          <div class="skill-tags">
+            <span class="skill-tag">MySQL</span>
+            <span class="skill-tag">SQL</span>
+            <span class="skill-tag">MongoDB</span>
+          </div>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+              stroke-linejoin="round">
+              <rect x="2" y="3" width="20" height="14" rx="2" />
+              <line x1="8" y1="21" x2="16" y2="21" />
+              <line x1="12" y1="17" x2="12" y2="21" />
+            </svg>
+          </div>
+          <p class="skill-card-title">Frameworks &amp; Tools</p>
+          <div class="skill-tags">
+            <span class="skill-tag">Node.js</span>
+            <span class="skill-tag">Git</span>
+            <span class="skill-tag">GitHub</span>
+            <span class="skill-tag">VS Code</span>
+            <span class="skill-tag">PyCharm</span>
+            <span class="skill-tag">IntelliJ</span>
+          </div>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+              stroke-linejoin="round">
+              <line x1="18" y1="20" x2="18" y2="10" />
+              <line x1="12" y1="20" x2="12" y2="4" />
+              <line x1="6" y1="20" x2="6" y2="14" />
+            </svg>
+          </div>
+          <p class="skill-card-title">Data &amp; Analytics</p>
+          <div class="skill-tags">
+            <span class="skill-tag">Power BI</span>
+            <span class="skill-tag">DAX</span>
+            <span class="skill-tag">Pandas</span>
+            <span class="skill-tag">Data Visualization</span>
+            <span class="skill-tag">Machine Learning</span>
+          </div>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+              stroke-linejoin="round">
+              <rect x="3" y="3" width="18" height="18" rx="2" />
+              <path d="M3 9h18M9 21V9" />
+            </svg>
+          </div>
+          <p class="skill-card-title">Operating Systems</p>
+          <div class="skill-tags">
+            <span class="skill-tag">Windows</span>
+            <span class="skill-tag">Linux (Basic)</span>
+          </div>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+              stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10" />
+              <path d="M12 8v4l3 3" />
+            </svg>
+          </div>
+          <p class="skill-card-title">Currently Learning</p>
+          <div class="skill-tags">
+            <span class="skill-tag">Business Analytics Tools</span>
+            <span class="skill-tag">ML &amp; Deep Learning</span>
+            <span class="skill-tag">Research Paper Work </span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <div class="section-inner reveal">
+      <p class="section-label">Work</p>
+      <div class="section-divider"></div>
+      <h2 class="section-heading">Experience</h2>
+
+      <div class="exp-card">
+        <div class="exp-header">
+          <div>
+            <p class="exp-role">Data Analyst Intern</p>
+            <p class="exp-company">Zynvixs Pvt. Ltd</p>
+          </div>
+          <span class="exp-period">April 2026 — July 2026</span>
+        </div>
+        <ul class="exp-list">
+          <li>Built Power BI and Tableau dashboards and cleaned datasets using SQL and Python.</li>
+          <li> Developed AI workflows with n8n and Vapi AI and imported leads into CRM.</li>
+        </ul>
+        <a href="https://drive.google.com/file/d/1eM-sLmWmergFVGdc2kCgkqWeUFGRFoMa/view" target="_blank"
+          rel="noopener noreferrer" class="btn btn-outline project-link">
+          View Certificate
+        </a>
+      </div>
+
+    </div>
+  </section>
+  <!-- EDUCATION -->
+  <section id="education">
+    <div class="section-inner reveal">
+      <p class="section-label">Academic Journey</p>
+      <div class="section-divider"></div>
+      <h2 class="section-heading">Education</h2>
+      <div class="timeline">
+
+        <div class="timeline-item">
+          <p class="timeline-period">2025 — Present</p>
+          <h3 class="timeline-degree">M.Sc. Data Science</h3>
+          <p class="timeline-institution">SIES College of Arts, Science and Commerce, Sion (W) — University of Mumbai
+          </p>
+          <p class="timeline-score">Specializing in Data Analysis, Machine Learning &amp; Visualization &nbsp;·&nbsp;
+            CGPI: In Progress</p>
+        </div>
+
+        <div class="timeline-item">
+          <p class="timeline-period">2022 — 2025</p>
+          <h3 class="timeline-degree">B.Sc. Information Technology</h3>
+          <p class="timeline-institution">NES Ratnam College of Arts, Science and Commerce, Bhandup (W) — University of
+            Mumbai</p>
+          <p class="timeline-score">Core: DBMS, Web Technologies, Python, Data Structures &nbsp;·&nbsp; CGPI: 8.15
+            (Average)</p>
+        </div>
+
+        <div class="timeline-item">
+          <p class="timeline-period">2021 — 2022</p>
+          <h3 class="timeline-degree">HSC (Higher Secondary Certificate)</h3>
+          <p class="timeline-institution">BMGN Inter College — UP Board</p>
+          <p class="timeline-score">Marks: 72% &nbsp;(360 / 500)</p>
+        </div>
+
+        <div class="timeline-item">
+          <p class="timeline-period">2019 — 2020</p>
+          <h3 class="timeline-degree">SSC (Secondary School Certificate)</h3>
+          <p class="timeline-institution">BMGN Inter College — UP Board</p>
+          <p class="timeline-score">Marks: 84.17% &nbsp;(505 / 600)</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="section-inner">
+      <p class="section-label">Work</p>
+      <div class="section-divider"></div>
+      <h2 class="section-heading">Projects</h2>
+      <div class="projects-grid">
+
+        <div class="project-card reveal">
+          <p class="project-type">Academic Project</p>
+          <h3 class="project-title">Event Management System</h3>
+          <p class="project-desc">
+            A web-based platform to manage end-to-end event logistics — registrations, venue selection, food catering,
+            vehicle allocation, and music bookings. Built with a clean front-end architecture focused on usability.
+          </p>
+          <div class="project-stack">
+            <span class="stack-tag">HTML</span>
+            <span class="stack-tag">CSS</span>
+            <span class="stack-tag">JavaScript</span>
+          </div>
+          <a href="https://harmant05.github.io/Event-Management-Project/" target="_blank" rel="noopener noreferrer"
+            class="btn btn-outline project-link">
+            View Project
+          </a>
+        </div>
+
+        <div class="project-card reveal">
+          <p class="project-type">Hackathon</p>
+          <h3 class="project-title">Zeroday Hackathon — SIES College</h3>
+          <p class="project-desc">
+            Participated in the Zeroday Hackathon at SIES College of Arts, Science and Commerce, Sion. Worked under
+            timed conditions to ideate and prototype solutions to real-world problem statements.
+          </p>
+          <div class="project-stack">
+            <span class="stack-tag">Problem Solving</span>
+            <span class="stack-tag">Team Collaboration</span>
+          </div>
+          <a href="https://github.com/Harmant05/Hackathon_Readme/blob/main/README.md" target="_blank"
+            rel="noopener noreferrer" class="btn btn-outline project-link">
+            View Details
+          </a>
+        </div>
+
+        <div class="project-card reveal">
+          <p class="project-type">Data Visualization</p>
+          <h3 class="project-title">Stock Exchange Analysis (NSE Dashboard)</h3>
+          <p class="project-desc">
+            Built an interactive Tableau dashboard analyzing 50 NSE stocks using a multi-company dataset — tracking
+            gainers/losers, volume trends, 52-week volatility, and price movement patterns.
+          </p>
+          <div class="project-stack">
+            <span class="stack-tag">Tableau</span>
+            <span class="stack-tag">Data Analytics</span>
+            <span class="stack-tag">Excel/CSV</span>
+          </div>
+          <a href="https://github.com/Harmant05/NSE-Stock-Dashboard/blob/main/README.md" target="_blank"
+            rel="noopener noreferrer" class="btn btn-outline project-link">
+            View Details
+          </a>
+        </div>
+
+        <div class="project-card reveal">
+          <p class="project-type">Data Visualization</p>
+          <h3 class="project-title">E-commerce Data Analysis Dashboard</h3>
+          <p class="project-desc">
+            Built an interactive Power BI dashboard analyzing 1,500+ e-commerce transactions — tracking
+            revenue, profit, and order trends across states, categories, sub-categories, and payment modes.
+          </p>
+          <div class="project-stack">
+            <span class="stack-tag">Power BI</span>
+            <span class="stack-tag">DAX</span>
+            <span class="stack-tag">Excel/CSV</span>
+          </div>
+          <a href="https://github.com/Harmant05/E-commerce-Data-Analysis-Dashboard-/blob/main/README.md" target="_blank"
+            rel="noopener noreferrer" class="btn btn-outline project-link">
+            View Details
+          </a>
+        </div>
+
+        <div class="project-card reveal project-card--dashed">
+          <p class="project-type">Coming Soon</p>
+          <h3 class="project-title">More Projects In Progress</h3>
+          <p class="project-desc">
+            Currently building more projects in data analytics, Power BI dashboards, and AI-powered web tools. Check
+            back soon or visit GitHub for the latest work.
+          </p>
+          <a href="https://github.com/Harmant05" target="_blank" rel="noopener noreferrer"
+            class="btn btn-outline project-link">
+            View GitHub
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CERTIFICATES -->
+  <section id="certificates">
+    <div class="section-inner reveal">
+      <p class="section-label">Recognition</p>
+      <div class="section-divider"></div>
+      <h2 class="section-heading">Certifications</h2>
+      <div class="certs-grid">
+
+        <div class="cert-item">
+          <div class="cert-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+              stroke-linejoin="round">
+              <path d="M12 2L3 7v5c0 5.25 3.75 10.15 9 11.25C17.25 22.15 21 17.25 21 12V7L12 2z" />
+              <polyline points="9 12 11 14 15 10" />
+            </svg>
+          </div>
+          <div>
+            <p class="cert-name">Zeroday Hackathon</p>
+            <p class="cert-issuer">
+              <a href="https://drive.google.com/file/d/1OTAiSde3xJ8egBAefN4cJM6RHRG73mbg/view" target="_blank"
+                rel="noopener noreferrer">Nexaworks & SIES College — Certified</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="cert-item">
+          <div class="cert-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+              stroke-linejoin="round">
+              <path d="M12 2L3 7v5c0 5.25 3.75 10.15 9 11.25C17.25 22.15 21 17.25 21 12V7L12 2z" />
+              <polyline points="9 12 11 14 15 10" />
+            </svg>
+          </div>
+          <div>
+            <p class="cert-name">Data Science and Analytics</p>
+            <p class="cert-issuer">
+              <a href="https://www.life-global.org/certificate/13284737-6132-41b1-9f1c-a5b811c73911" target="_blank"
+                rel="noopener noreferrer">HP Life — Certified</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="cert-item">
+          <div class="cert-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+              stroke-linejoin="round">
+              <path d="M12 2L3 7v5c0 5.25 3.75 10.15 9 11.25C17.25 22.15 21 17.25 21 12V7L12 2z" />
+              <polyline points="9 12 11 14 15 10" />
+            </svg>
+          </div>
+          <div>
+            <p class="cert-name">Data Analytics</p>
+            <p class="cert-issuer">
+              <a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/9PBTqmSxAf6zZTseP/io9DzWKe3PTsiS6GG_9PBTqmSxAf6zZTseP_TqNwkXFBe558vNPgh_1782060637281_completion_certificate.pdf"
+                target="_blank" rel="noopener noreferrer">Deloitte — Certified</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="cert-item">
+          <div class="cert-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+              stroke-linejoin="round">
+              <path d="M12 2L3 7v5c0 5.25 3.75 10.15 9 11.25C17.25 22.15 21 17.25 21 12V7L12 2z" />
+              <polyline points="9 12 11 14 15 10" />
+            </svg>
+          </div>
+          <div>
+            <p class="cert-name">Data Visualization</p>
+            <p class="cert-issuer">
+              <a href="https://www.theforage.com/completion-certificates/ifobHAoMjQs9s6bKS/MyXvBcppsW2FkNYCX_ifobHAoMjQs9s6bKS_TqNwkXFBe558vNPgh_1756892783309_completion_certificate.pdf"
+                target="_blank" rel="noopener noreferrer">TATA Forage — Certified</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="cert-item">
+          <div class="cert-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+              stroke-linejoin="round">
+              <path d="M12 2L3 7v5c0 5.25 3.75 10.15 9 11.25C17.25 22.15 21 17.25 21 12V7L12 2z" />
+              <polyline points="9 12 11 14 15 10" />
+            </svg>
+          </div>
+          <div>
+            <p class="cert-name">AI Skills Passport</p>
+            <p class="cert-issuer">
+              <a href="https://www.linkedin.com/posts/harmant_activity-7392835062372847616-4Kl0?utm_source=social_share_send&utm_medium=android_app&rcm=ACoAAD7n2eIB6kxmRonlWd1OvGLznOlKrlj1e4o&utm_campaign=whatsapp"
+                target="_blank" rel="noopener noreferrer">Microsoft &amp; EY — Certified</a>
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="section-inner">
+      <p class="section-label">Let's Talk</p>
+      <div class="section-divider"></div>
+      <h2 class="section-heading">Contact</h2>
+      <div class="contact-wrap">
+
+        <div class="reveal">
+          <p class="contact-desc">
+            I'm actively seeking opportunities in Data Analytics and Data Science. If you're working on something interesting or would like to connect, feel free to reach out.
+          </p>
+          <div class="contact-links">
+            <a class="contact-link" href="mailto:tripathiharendra05@gmail.com">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                stroke-linejoin="round">
+                <rect x="2" y="4" width="20" height="16" rx="2" />
+                <polyline points="2,4 12,13 22,4" />
+              </svg>
+              tripathiharendra05@gmail.com
+            </a>
+            <a class="contact-link" href="tel:+919892225762">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path
+                  d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.15 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.06 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.09 8.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z" />
+              </svg>
+              +91 98922 25762
+            </a>
+            <a class="contact-link" href="https://github.com/Harmant05" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577v-2.165c-3.338.726-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.84 1.237 1.84 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.468-2.38 1.235-3.22-.123-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.3 1.23a11.5 11.5 0 0 1 3-.404c1.02.005 2.047.138 3 .404 2.29-1.552 3.297-1.23 3.297-1.23.653 1.652.242 2.873.12 3.176.77.84 1.233 1.91 1.233 3.22 0 4.61-2.807 5.625-5.48 5.92.43.372.823 1.102.823 2.222v3.293c0 .322.216.694.825.576C20.565 21.796 24 17.298 24 12c0-6.63-5.37-12-12-12z" />
+              </svg>
+              github.com/Harmant05
+            </a>
+            <a class="contact-link" href="https://linkedin.com/in/harmant" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.98 1.98 0 0 1-1.985-1.98c0-1.093.891-1.98 1.985-1.98s1.985.887 1.985 1.98a1.98 1.98 0 0 1-1.985 1.98zm1.962 13.019H3.374V9h3.925v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+              </svg>
+              linkedin.com/in/harmant
+            </a>
+          </div>
+        </div>
+
+        
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <span class="footer-name">Harendra Mani Tripathi</span>
+    <span class="footer-right">Designed &amp; Represented </span>
+  </footer>
+</body>
+
+<!-- NAV scroll effect -->
+<script>
+  const navbar = document.getElementById('navbar');
+  window.addEventListener('scroll', () => {
+    navbar.classList.toggle('scrolled', window.scrollY > 40);
+  });
+
+  // Mobile nav toggle
+  const hamburger = document.getElementById('hamburger');
+  const navLinks = document.getElementById('navLinks');
+  hamburger.addEventListener('click', () => {
+    navLinks.classList.toggle('open');
+  });
+  navLinks.querySelectorAll('a').forEach(link => {
+    link.addEventListener('click', () => navLinks.classList.remove('open'));
+  });
+
+  document.addEventListener('click', (e) => {
+    if (!navbar.contains(e.target)) navLinks.classList.remove('open');
+  });
+  // Scroll reveal
+  const reveals = document.querySelectorAll('.reveal');
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.1 });
+  reveals.forEach(el => observer.observe(el));</script>
+
+</html>
